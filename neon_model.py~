@@ -1,0 +1,13 @@
+import numpy as np
+
+N = 1000
+
+
+Ne21_ratio = 0.5
+Ne22_ratio = 0.5
+
+Ne20 = (1 + Ne21_ratio + Ne22_ratio) * N
+Ne21 = Ne21_ratio * Ne20
+Ne22 = Ne22_ratio * Ne20
+
+Total = Ne20 + Ne21 + Ne22
